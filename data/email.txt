@@ -1,6 +1,0 @@
-Valid:
-Tsinghua: tang.yansong[at]sz.tsinghua.edu.cn
-Gmail: tangyansong15[at]gmail.com
-
-Invalid:
-Oxford: yansong.tang[at]eng.ox.ac.uk
