@@ -130,7 +130,7 @@ h2 { font: 500 clamp(1.9rem, 3.3vw, 2.6rem)/1.15 var(--serif); letter-spacing: -
 .resources { gap: 6px 16px; margin-top: 10px; flex-wrap: wrap; }
 .resources a { font-size: .85rem; font-weight: 650; }
 .background { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.background h2, #news h2, #awards h2 { padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.background h2, #news h2, #awards h2, #service h2 { padding-bottom: 16px; border-bottom: 1px solid var(--line); }
 .affiliation { display: grid; grid-template-columns: 80px 1fr; gap: 18px; align-items: center; margin: 24px 0; }
 .logo { display: grid; place-items: center; min-height: 68px; }
 .logo img { max-width: 100%; max-height: 62px; }
@@ -143,6 +143,10 @@ time { color: var(--muted); }
 .awards { padding-left: 20px; }
 .awards li { margin: 5px 0; }
 .awards li::marker { color: #55789c; }
+#service h3 { margin: 20px 0 6px; font-size: 1.02rem; }
+.teaching { list-style: none; margin: 0; padding: 0; }
+.teaching li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 16px; padding: 4px 0; }
+.teaching strong { min-width: 9rem; color: var(--muted); font-size: .86rem; }
 footer { border-top: 1px solid var(--line); margin-top: 44px; padding: 18px 0 32px; text-align: right; font-size: .85rem; }
 
 @media (max-width: 780px) {
